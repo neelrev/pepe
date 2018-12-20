@@ -22,3 +22,6 @@ or in cloud so that they can scale up to serve multiple web applications hosted 
 
 Pepe is designed to be autonomus and work with minimal user interaction. At the core of Pepe is a vigilant job subsystem 
 which fetches data and checks the status of GDPR enablement day after day.
+
+
+![alt Design of Pepe](https://github.com/neelrev/pepe/blob/master/Design%20of%20Pepe.PNG)
