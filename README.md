@@ -10,7 +10,7 @@ how to design and implement a GDPR system for an existing application, web or mo
 
 Pepe hopes to fill in this gap. Pepe aims to become a wholistic framework for end-to-end implementation of GDPR compliance for a web application.
 
-## Focus areas of GDPR
+![alt Focus Areas of GDPR](https://github.com/neelrev/pepe/blob/master/Pillars%20of%20GDPR.PNG)
 
 ## Design of Pepe
 The core of Pepe is based on three fundamental principles - loose coupling, scalability and robustness. Pepe is at it's infancy 
