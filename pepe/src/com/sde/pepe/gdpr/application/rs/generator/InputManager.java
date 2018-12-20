@@ -25,11 +25,11 @@ public class InputManager {
 		 }
 	}
 
-	public static void getRootInputs(String jiraId) {
-		String userInputfilePath=filesystemRoot+jiraId+".csv";
+	public static void getRootInputs(String orgId) {
+		String userInputfilePath=filesystemRoot+orgId+".csv";
 		Extract extract=new Extract();
 		List<Input> inputs=extract.extractRootInputs(userInputfilePath);
-		String outputFilePath=getRootInputFilePath(jiraId);
+		String outputFilePath=getRootInputFilePath(orgId);
 
 		CountryManager countryManager=new CountryManager();
 		List<Country> countries=countryManager.getAll();
@@ -75,8 +75,8 @@ public class InputManager {
 		 writeRecordsInCSVFile(outputFilePath,writeables,false);
 	}//createCollectionPoints
 
-	private static String getRootInputFilePath(String jiraId) {
-		return filesystemRoot+jiraId+"_"+env+".csv";
+	private static String getRootInputFilePath(String orgId) {
+		return filesystemRoot+orgId+"_"+env+".csv";
 	}//getRootInput
 
 	public static void createCookieBanner() {
